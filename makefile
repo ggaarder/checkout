@@ -5,3 +5,6 @@ checkout: *.c
 
 debug: *.c
 	gcc $^ -o $@ -g
+
+clean:
+	rm checkout debug
